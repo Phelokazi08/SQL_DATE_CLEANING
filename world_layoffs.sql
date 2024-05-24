@@ -12,7 +12,7 @@ country varchar(50),
 funds_raised_millions int
 );
 
---  IMPORT DATA (BUT IN THIS CASE WE INSERT DATA)
+--  IMPORT DATA (BUT IN THIS CASE I INSERT DATA)
 INSERT INTO layoffs_org VALUES
 ('Atlassian',	'Sydney',	'Other',	500,	0.05,	'3/6/2023',	'Post-IPO',	'Australia',	210),
 ('SiriusXM',	'New York City',	'Media',	475,	0.08,	'3/6/2023',	'Post-IPO',	'United States',	525),
@@ -623,7 +623,7 @@ INSERT INTO layoffs_org VALUES
 ('Wonder',	'New York City',	'Food',	130,	0.07,	'11/30/2022',	'Series B',	'United States',	850),
 ('StudySmarter',	'Berlin',	'Education',	70,	NULL,	'11/30/2022',	'Series A',	'Germany',	64),
 ('Grin',	'Sacramento',	'Marketing',	60,	0.13,	'11/30/2022',	'Series B',	'United States',	145),
-('Ualá',	'Buenos Aires',	'Finance',	53,	0.03,	'11/30/2022',	'Series D',	'Argentina',	544),
+('UalÃ¡',	'Buenos Aires',	'Finance',	53,	0.03,	'11/30/2022',	'Series D',	'Argentina',	544),
 ('Teachmint',	'Bengaluru',	'Education',	45,	0.05,	'11/30/2022',	'Series B',	'India',	118),
 ('Etermax',	'Buenos Aires',	'Other',	40,	NULL,	'11/30/2022',	'Unknown',	'Argentina',	NULL),
 ('Thread',	'London',	'Retail',	30,	0.5,	'11/30/2022',	'Acquired',	'United Kingdom',	40),
@@ -729,7 +729,7 @@ INSERT INTO layoffs_org VALUES
 ('CaptivateIQ',	'SF Bay Area',	'Sales',	31,	0.1,	'11/15/2022',	'Series C',	'United States',	164),
 ('Apollo Insurance',	'Vancouver',	'Finance',	NULL,	0.25,	'11/15/2022',	'Series B',	'Canada',	11),
 ('Nirvana Money',	'Miami',	'Finance',	NULL,	1,	'11/15/2022',	'Unknown',	'United States',	NULL),
-('Oatly',	'Malmö',	'Food',	NULL,	NULL,	'11/15/2022',	'Post-IPO',	'Sweden',	441),
+('Oatly',	'MalmÃ¶',	'Food',	NULL,	NULL,	'11/15/2022',	'Post-IPO',	'Sweden',	441),
 ('OfferUp',	'Seattle',	'Retail',	NULL,	0.19,	'11/15/2022',	'Unknown',	'United States',	381),
 ('Outside',	'Boulder',	'Media',	NULL,	0.12,	'11/15/2022',	'Series B',	'United States',	174),
 ('Rubicon Technologies',	'Lexington',	'Other',	NULL,	0.11,	'11/15/2022',	'Post-IPO',	'United States',	382),
@@ -852,7 +852,7 @@ INSERT INTO layoffs_org VALUES
 ('Amazon',	'Seattle',	'Retail',	150,	NULL,	'10/28/2022',	'Post-IPO',	'United States',	108),
 ('Fifth Season',	'Pittsburgh',	'Food',	100,	1,	'10/28/2022',	'Series B',	'United States',	35),
 ('Advata',	'Seattle',	'Healthcare',	32,	0.21,	'10/28/2022',	'NULL',	'United States',	NULL),
-('Springlane',	'Düsseldorf',	'Food',	NULL,	0.35,	'10/28/2022',	'Series C',	'Germany',	11),
+('Springlane',	'DÃ¼sseldorf',	'Food',	NULL,	0.35,	'10/28/2022',	'Series C',	'Germany',	11),
 ('RenoRun',	'Montreal',	'Construction',	210,	0.43,	'10/27/2022',	'Series B',	'Canada',	163),
 ('Recharge',	'Los Angeles',	'Finance',	84,	0.17,	'10/27/2022',	'Series B',	'United States',	277),
 ('Lattice',	'SF Bay Area',	'HR',	13,	NULL,	'10/27/2022',	'Series F',	'United States',	328),
@@ -1304,7 +1304,7 @@ INSERT INTO layoffs_org VALUES
 ('Fabric',	'New York City',	'Logistics',	120,	0.4,	'7/13/2022',	'Series C',	'United States',	336),
 ('Bryter',	'Berlin',	'Product',	100,	0.3,	'7/13/2022',	'Series B',	'Germany',	89),
 ('ChowNow',	'Los Angeles',	'Food',	100,	0.2,	'7/13/2022',	'Series C',	'United States',	64),
-('Involves',	'Florianópolis',	'Retail',	70,	0.18,	'7/13/2022',	'Unknown',	'Brazil',	23),
+('Involves',	'FlorianÃ³polis',	'Retail',	70,	0.18,	'7/13/2022',	'Unknown',	'Brazil',	23),
 ('100 Thieves',	'Los Angeles',	'Consumer',	12,	NULL,	'7/13/2022',	'Series C',	'United States',	120),
 ('Nuro',	'SF Bay Area',	'Transportation',	7,	NULL,	'7/13/2022',	'Series D',	'United States',	2100),
 ('Arrival',	'London',	'Transportation',	NULL,	0.3,	'7/13/2022',	'Post-IPO',	'United Kingdom',	629),
